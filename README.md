@@ -11,9 +11,7 @@
 
 ### Analysis Scripts
 
-`run_analysis.R` is the complete R script which will download, extract and 
-process the data according to the Coursera assignment instructions.  It performs
-the following steps:  
+`run_analysis.R` is the complete R script which performs the following steps:  
 * Downloads the zipped dataset and extracts it, creating the `UCI HAR Dataset` 
 directory  
 * Merges the files `sample_train`, `y_train` and `X_train`, found under
