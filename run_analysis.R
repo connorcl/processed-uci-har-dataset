@@ -64,4 +64,4 @@ library(dplyr)
 tidy_dataset <- dataset %>% group_by(subject, activity) %>% summarise_all(mean)
 
 ## Write tidy dataset
-write.table(tidy_dataset, "tidy_dataset.txt")
+write.table(tidy_dataset, "tidy_dataset.txt", row.name = FALSE)
