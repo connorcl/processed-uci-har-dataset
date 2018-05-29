@@ -19,7 +19,7 @@ dataset
 every unique subject-activity combination
 * Saves this tidy summary to `tidy_data.txt`  
 
-`run_analysis.R` depends on the `dplyr` package. This analysis was performed
+This script depends on the `dplyr` package. This analysis was performed
 using R version 3.5.0 and dplyr version 0.7.5.  
 
 `CodeBook.md` contains information on the variables in the tidy dataset 
