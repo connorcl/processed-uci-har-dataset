@@ -2,6 +2,15 @@
 
 ## Included Files
 
+### Information
+
+`README.md` (this file) contains information on the files in this repository
+
+`CodeBook.md` contains information on the variables in the tidy dataset 
+`tidy_data.txt` produced by `run_analysis.R`.  
+
+### Analysis Scripts
+
 `run_analysis.R` is the complete R script which will download, extract and 
 process the data according to the Coursera assignment instructions.  It performs
 the following steps:  
@@ -22,5 +31,6 @@ every unique subject-activity combination
 This script depends on the `dplyr` package. This analysis was performed
 using R version 3.5.0 and dplyr version 0.7.5.  
 
-`CodeBook.md` contains information on the variables in the tidy dataset 
-`tidy_data.txt` produced by `run_analysis.R`.  
+### Datasets
+
+`tidy_data.txt` is the dataset produced by running `run_analysis.R`  
