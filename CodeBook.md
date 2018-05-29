@@ -103,10 +103,10 @@ velocity jerk signal (time domain).
 * **time.body.gyro.jerk.mag.std**: the standard deviation of the magnitude of 
 the body angular velocity jerk signal (time domain).
 
-* **freq.body.acc.mean.x**, **time.body.acc.mean.y**, **time.body.acc.mean.z**: 
+* **freq.body.acc.mean.x**, **freq.body.acc.mean.y**, **freq.body.acc.mean.z**: 
 for each axis, the mean body accleration signal (frequency domain).
 
-* **freq.body.acc.std.x**, **time.body.acc.std.y**, **time.body.acc.std.z**: 
+* **freq.body.acc.std.x**, **freq.body.acc.std.y**, **freq.body.acc.std.z**: 
 for each axis, the standard deviation of the body accleration signal 
 (frequency domain).
 
