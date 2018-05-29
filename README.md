@@ -1,5 +1,11 @@
 # Processed UCI Human Activity Recognition Using Smartphones Dataset
 
+This dataset comes from the UCI Human Activity Recognition Using Smartphones 
+Dataset. The data is the result of an experiment by Jorge L. Reyes-Ortiz, 
+Davide Anguita, Alessandro Ghio and Luca Oneto, involving the recording of 
+accelerometer and gyroscope data from smartphones attached to the waists of 
+participants as they performed different activities.
+
 ## Included Files
 
 ### Information
