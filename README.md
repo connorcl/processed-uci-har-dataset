@@ -15,7 +15,7 @@ participants as they performed different activities.
 `CodeBook.md` contains information on the variables in the tidy dataset 
 `tidy_data.txt` produced by `run_analysis.R`.  
 
-### Analysis Scripts
+### Processing Scripts
 
 `run_analysis.R` is the complete R script which performs the following steps:  
 * Downloads the zipped dataset and extracts it (if not already present), 
