@@ -1,9 +1,14 @@
-# Codebook - Processed UCI HAR Dataset
+# Codebook - Processed UCI Human Activity Recognition Using Smartphones Dataset
+
+## Identifiers
   
-* **subject**: unique id of participant
-* **activity**: kind of physical activity performed (one of "walking", 
-"walking upstairs", "walking downstairs", "sitting", "standing", "laying")  
-  
+* **subject**: unique participant id, an integer
+* **activity**: kind of physical activity performed, a factor with
+6 levels: "walking", "walking upstairs", "walking downstairs", "sitting", 
+"standing", "laying"  
+ 
+## Measurements
+
 According to the original dataset documentation, the following features come 
 from the raw 3-axial accelerometer and gyroscope time-domain signals, captured 
 at a rate of 50Hz and filtered using a median filter and a 3rd order low pass 
@@ -15,10 +20,11 @@ time to obtain jerk signals, and the magnitude of these three-dimensional
 signals were calculated using the Euclidean norm. Finally, frequency domain 
 signals were calculated using a Fast Fourier Transform (FFT).  
   
-All signals are normalised and bounded within [-1,1].  
+All of these variables are floating point numbers, normalized and bounded within 
+[-1,1].  
 
-Each variable as recorded is the mean of this variable across all the 
-observations for each subject/activity combination.  
+Each variable as recorded in `tidy_data.txt` is the mean of this variable across 
+all the observations for each unique subject-activity combination.  
   
 * **time.body.acc.mean.x**, **time.body.acc.mean.y**, **time.body.acc.mean.z**: 
 for each axis, the mean body accleration signal (time domain).

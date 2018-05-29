@@ -25,15 +25,20 @@ test_set <- cbind(subject_test, y_test, X_test)
 dataset <- rbind(training_set, test_set)
 
 ## Extract columns containing mean or sd of measurements only
-features <- read.table(file.path(data_dir, "features.txt"), stringsAsFactors = FALSE)
+features <- read.table(file.path(data_dir, "features.txt"),
+                       stringsAsFactors = FALSE)
 # Caclulate indexes of relevant features, offsetting by 2 to take into account
 # the subject and activity columns in the dataset
 idxs_mean_std <- grep("mean\\(\\)|std\\(\\)", features[[2]])
 dataset <- dataset[c(1:2, idxs_mean_std + 2)]
 
 ## Replace integers in activity column with descriptive names
-activities <- read.table(file.path(data_dir, "activity_labels.txt"), stringsAsFactors = FALSE)
-dataset[[2]] <- sub("_", " ", tolower(activities[[2]][dataset[[2]]]))
+activities <- read.table(file.path(data_dir, "activity_labels.txt"),
+                         stringsAsFactors = FALSE)
+dataset[[2]] <- factor(sub("_", " ", tolower(activities[[2]][dataset[[2]]])),
+                       levels = c("walking", "walking upstairs", 
+                                  "walking downstairs", "sitting", 
+                                  "standing", "laying"))
 
 ## Label dataset with descriptive variable names
 # Extract relevant feature names
