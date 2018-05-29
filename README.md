@@ -12,8 +12,8 @@
 ### Analysis Scripts
 
 `run_analysis.R` is the complete R script which performs the following steps:  
-* Downloads the zipped dataset and extracts it, creating the `UCI HAR Dataset` 
-directory  
+* Downloads the zipped dataset and extracts it (if not already present), 
+creating the `UCI HAR Dataset` directory  
 * Merges the files `sample_train`, `y_train` and `X_train`, found under
 `UCI HAR Dataset/train`, column-wise, and does the same for the files 
 `sample_test`, `y_test` and `X_test`, found under `UCI HAR Dataset/test`   
