@@ -34,7 +34,7 @@ complete dataset
 every unique subject-activity combination  
 * Save this tidy summary to `tidy_data.txt`  
 
-This script depends on the `dplyr` package. The analysis was performed
+This script depends on the `dplyr` R package. The analysis was performed
 using R version 3.5.0 and dplyr version 0.7.5.  
 
 ### Datasets
