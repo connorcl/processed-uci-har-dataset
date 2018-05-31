@@ -23,7 +23,7 @@ assumed to have only low frequency components, therefore a filter with 0.3 Hz
 cutoff frequency was used. From each window, a vector of features was obtained 
 by calculating variables from the time and frequency domain.
 
-## Codebook
+## Code book
 
 ### Identifiers
   
