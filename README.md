@@ -14,8 +14,8 @@ information on the design of this experiment.
 `README.md` (this file) contains information on the files in this repository.
 
 `CodeBook.md` contains information on the design of the experiment in which
-the raw data was collected and the variables in the tidy dataset `tidy_data.txt` 
-produced by `run_analysis.R`.  
+the raw data was collected as well as the variables in the tidy dataset 
+`tidy_data.txt` produced by `run_analysis.R`.  
 
 ### Processing Scripts
 
