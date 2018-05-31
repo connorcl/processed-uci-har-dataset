@@ -7,6 +7,8 @@ accelerometer and gyroscope data from smartphones attached to the waists of
 participants as they performed different activities. See `CodeBook.md` for more
 information on the design of this experiment.
 
+This repository contains a tidy summary of this data.
+
 ## Included Files
 
 ### Information
