@@ -1,7 +1,8 @@
 # Processed UCI Human Activity Recognition Using Smartphones Dataset
 
-This data comes from the UCI Human Activity Recognition Using Smartphones 
-Dataset. This dataset is the result of an experiment by Jorge L. Reyes-Ortiz, 
+This data comes from the [UCI Human Activity Recognition Using Smartphones 
+Dataset](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+This dataset is the result of an experiment by Jorge L. Reyes-Ortiz, 
 Davide Anguita, Alessandro Ghio and Luca Oneto, involving the recording of 
 accelerometer and gyroscope data from smartphones attached to the waists of 
 participants as they performed different activities. See `CodeBook.md` for more
@@ -15,9 +16,14 @@ This repository contains a tidy summary of this data.
 
 `README.md` (this file) contains information on the files in this repository.
 
-`CodeBook.md` contains information on the design of the experiment in which
-the raw data was collected as well as the variables in the tidy dataset 
-`tidy_data.txt` produced by `run_analysis.R`.  
+`CodeBook.md` contains information on the variables present in the dataset 
+`tidy_data.txt` produced by `run_analysis.R`. It also summarizes the design of
+the experiment in which the raw data was collected.
+
+### Data
+
+`tidy_data.txt` is the tab-delimited data file produced by running 
+`run_analysis.R`.  
 
 ### Processing Scripts
 
@@ -30,7 +36,7 @@ files `sample_test`, `y_test` and `X_test`, found under `UCI HAR Dataset/test`
 * Concatenate the resulting training and test sets row-wise to create a 
 complete dataset  
 * Discard variables which are not the `mean()` or `sd()` of a signal  
-* Replace the integer activity indentifier with descriptive names  
+* Replace the integer activity indentifiers with descriptive names  
 * Label the columns with descriptive variable names  
 * Summarize the dataset by providing the mean of each measurement variable for 
 every unique subject-activity combination  
@@ -38,8 +44,3 @@ every unique subject-activity combination
 
 This script depends on the `dplyr` R package. The analysis was performed
 using R version 3.5.0 and dplyr version 0.7.5.  
-
-### Datasets
-
-`tidy_data.txt` is the tab-delimited data file produced by running 
-`run_analysis.R`.  
